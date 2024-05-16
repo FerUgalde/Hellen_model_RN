@@ -4,7 +4,7 @@ import cv2
 
 
 #               CREAR CARPETAS PARA ALMACENAR ENTRENAMIENTO y VALIDACION
-direccion = 'C:/Users/ferug/Documents/Ing. Software/6to Semestre/Interaccion Humano Computadora/Hellen/Dataset'
+direccion = './Hellen/create_dataset_imgs/Dataset'
 
 # En caso de no existir la carpeta, se crea una
 if not os.path.exists(direccion):
