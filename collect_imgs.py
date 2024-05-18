@@ -35,7 +35,7 @@ for j in range(number_of_classes):
         ret, frame = cap.read()
         cv2.imshow('frame', frame)
         cv2.waitKey(25)
-        cv2.imwrite(os.path.join(direccion, str(j), '{}.jpg'.format(counter)), frame)
+        cv2.imwrite(os.path.join(direccion, str(j), 'x_{}.jpg'.format(counter)), frame)
 
         counter += 1
 
